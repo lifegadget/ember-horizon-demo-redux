@@ -12,7 +12,12 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
-
+    horizon: {
+      host: 'localhost:8181',
+      authType: 'token',
+      secure: true,
+      realTime: true
+    },
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
